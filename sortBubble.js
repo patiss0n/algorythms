@@ -2,7 +2,7 @@ function sortBubble(arr) {
     let check = true
     while(check == true) {
         check = false
-        for(let i = 0; i < arr.length; i++) {
+        for(let i = 0; i < arr.length-1; i++) {
             if(arr[i+1] < arr[i]) {
                 let temp = arr[i+1]
                 arr[i+1] = arr[i]
